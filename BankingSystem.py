@@ -4,7 +4,7 @@ import datetime
 
 
 def main():
-    balances = {}
+    balances = {} #balance array
     details = {}
     with open('AccountBalances.csv') as f:
         for line in f:
